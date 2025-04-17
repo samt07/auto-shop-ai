@@ -1,0 +1,13 @@
+python-dotenv
+numpy
+pandas
+scipy
+openai
+gradio
+langchain
+langchain-openai
+langchain_chroma
+matplotlib
+scikit-learn
+chromadb
+plotly

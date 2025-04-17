@@ -1,74 +1,187 @@
 [
-  {
-    "id": "service_001",
-    "content": "We offer tire services including rotation, balancing, flat repair, and new tire sales and installation.",
-    "metadata": {
-      "source": "service_page",
-      "category": "tire_services",
-      "tags": "tire, rotation, repair, installation"
-    }
-  },
-  {
-    "id": "service_002",
-    "content": "Brake services include pad replacement, rotor resurfacing, and ABS diagnostics.",
-    "metadata": {
-      "source": "service_page",
-      "category": "brake_services",
-      "tags": "brake, pads, rotors, abs"
-    }
-  },
-  {
-    "id": "faq_001",
-    "content": "Walk-ins are welcome, but appointments are recommended for faster service.",
-    "metadata": {
-      "source": "faq",
-      "category": "appointments",
-      "tags": "appointment, walk-in"
-    }
-  },
-  {
-    "id": "faq_002",
-    "content": "Most oil changes are completed within 30–45 minutes.",
-    "metadata": {
-      "source": "faq",
-      "category": "oil_change",
-      "tags": "oil change, duration"
-    }
-  },
-  {
-    "id": "general_001",
-    "content": "Pinkys Auto Care is located at Rte 112, Medford, NY 11763. We're open Monday through Friday from 8am to 6pm, and Saturday from 9am to 2pm.",
-    "metadata": {
-      "source": "general_info",
-      "category": "location_hours",
-      "tags": "location, hours, contact"
-    }
-  },
-  {
-    "id": "promo_001",
-    "content": "At Pinkys Auto Care, we combine modern diagnostics with friendly, small-town service. Our ASE-certified mechanics serve Springfield with over 15 years of experience.",
-    "metadata": {
-      "source": "about_us",
-      "category": "branding",
-      "tags": "promo, about us, experience"
-    }
-  },
-  {
-    "id": "customer_query_001",
-    "content": "My car shakes when braking—do I need new rotors?",
-    "metadata": {
-      "source": "user_query",
-      "category": "brake_services",
-      "tags": "brake, rotor, vibration"
-    }
-  },
-  {
-    "id": "customer_query_002",
-    "content": "Can you align wheels on a 2021 Subaru Outback?",
-    "metadata": {
-      "source": "user_query",
-      "category": "wheel_alignment",
-      "tags": "wheel alignment, vehicle-specific"
-    }
-  }
+    {
+      "id": "service_001",
+      "content": "We offer tire services including rotation, balancing, flat repair, and new tire sales and installation.",
+      "duration": "1-2 hours",
+      "metadata": {
+        "source": "service_page",
+        "category": "tire_services",
+        "tags": "tire, rotation, repair, installation"
+      }
+    },
+    {
+      "id": "service_002",
+      "content": "We provide wheel alignment services to ensure your vehicle handles properly and tires wear evenly.",
+      "duration": "1 hour",
+      "metadata": {
+        "source": "service_page",
+        "category": "wheel_alignment",
+        "tags": "alignment, vehicle handling, tire wear"
+      }
+    },
+    {
+      "id": "service_003",
+      "content": "Brake services including replacement of pads, rotors, and brake fluid for optimal safety and performance.",
+      "duration": "1-3 hours",
+      "metadata": {
+        "source": "service_page",
+        "category": "brakes",
+        "tags": "brakes, pads, rotors, fluid"
+      }
+    },
+    {
+      "id": "service_004",
+      "content": "Exhaust system repair and replacement to improve engine performance and reduce emissions.",
+      "duration": "2-4 hours",
+      "metadata": {
+        "source": "service_page",
+        "category": "exhaust",
+        "tags": "exhaust, performance, emissions"
+      }
+    },
+    {
+      "id": "service_005",
+      "content": "Oil changes to keep your engine running smoothly and extend its lifespan.",
+      "duration": "30 minutes",
+      "metadata": {
+        "source": "service_page",
+        "category": "oil_change",
+        "tags": "oil, engine, maintenance"
+      }
+    },
+    {
+      "id": "service_006",
+      "content": "NYS inspections to ensure your vehicle meets state safety and emissions standards.",
+      "duration": "30 minutes",
+      "metadata": {
+        "source": "service_page",
+        "category": "nys_inspections",
+        "tags": "inspection, safety, emissions"
+      }
+    },
+    {
+      "id": "service_007",
+      "content": "Shock absorber replacement to improve ride quality and vehicle handling.",
+      "duration": "2 hours",
+      "metadata": {
+        "source": "service_page",
+        "category": "shocks",
+        "tags": "shocks, ride quality, handling"
+      }
+    },
+    {
+      "id": "service_008",
+      "content": "Suspension system repair to restore vehicle comfort and safety by replacing faulty components.",
+      "duration": "3-4 hours",
+      "metadata": {
+        "source": "service_page",
+        "category": "suspension_system",
+        "tags": "suspension, repair, comfort, safety"
+      }
+    },
+    {
+      "id": "service_009",
+      "content": "Engine repairs for components that need fixing or replacing to restore optimal performance.",
+      "duration": "4-8 hours",
+      "metadata": {
+        "source": "service_page",
+        "category": "engine_repairs",
+        "tags": "engine, repair, performance"
+      }
+    },
+    {
+      "id": "service_010",
+      "content": "Timing belt replacement to avoid engine damage and ensure smooth engine operation.",
+      "duration": "3 hours",
+      "metadata": {
+        "source": "service_page",
+        "category": "timing_belt",
+        "tags": "timing belt, engine, replacement"
+      }
+    },
+    {
+      "id": "service_011",
+      "content": "Heating and cooling system repairs to maintain comfort and engine efficiency.",
+      "duration": "2-4 hours",
+      "metadata": {
+        "source": "service_page",
+        "category": "heating_cooling",
+        "tags": "heating, cooling, engine, comfort"
+      }
+    },
+    {
+      "id": "service_012",
+      "content": "General maintenance services including fluid checks, filter replacements, and inspections.",
+      "duration": "1 hour",
+      "metadata": {
+        "source": "service_page",
+        "category": "maintenance",
+        "tags": "maintenance, fluid checks, filters, inspections"
+      }
+    },
+    {
+      "id": "service_013",
+      "content": "Electrical system repair for components like alternators, batteries, and wiring to restore functionality.",
+      "duration": "2-3 hours",
+      "metadata": {
+        "source": "service_page",
+        "category": "electrical_system",
+        "tags": "electrical, alternator, battery, wiring"
+      }
+    },
+    {
+       "id": "faq_001",
+       "content": "Walk-ins are welcome, but appointments are recommended for faster service.",
+       "metadata": {
+         "source": "faq",
+         "category": "appointments",
+         "tags": "appointment, walk-in"
+       }
+    },
+    {
+        "id": "faq_002",
+        "content": "Most oil changes are completed within 30–45 minutes.",
+        "duration": "30-45 minutes",
+        "metadata": {
+          "source": "faq",
+          "category": "oil_change",
+          "tags": "oil change, duration"
+        }
+    },
+    {
+        "id": "general_001",
+        "content": "Pinkys Auto Care is located at Rte 112, Medford, NY 11763. We're open Monday through Friday from 8am to 6pm, and Saturday from 9am to 2pm.",
+        "metadata": {
+          "source": "general_info",
+          "category": "location_hours",
+          "tags": "location, hours, contact"
+        }
+    },
+    {
+        "id": "promo_001",
+        "content": "At Pinkys Auto Care, we combine modern diagnostics with friendly, small-town service. Our ASE-certified mechanics serve Springfield with over 15 years of experience.",
+        "metadata": {
+          "source": "about_us",
+          "category": "branding",
+          "tags": "promo, about us, experience"
+        }
+    },
+    {
+        "id": "customer_query_001",
+        "content": "My car shakes when braking—do I need new rotors?",
+        "metadata": {
+          "source": "user_query",
+          "category": "brake_services",
+          "tags": "brake, rotor, vibration"
+        }
+      },
+    {
+        "id": "customer_query_002",
+        "content": "Can you align wheels on a 2021 Subaru Outback?",
+        "metadata": {
+          "source": "user_query",
+          "category": "wheel_alignment",
+          "tags": "wheel alignment, vehicle-specific"
+        }
+      }
 ]

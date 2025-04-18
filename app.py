@@ -64,6 +64,10 @@ documents = []
 for item in data:
     content = item["content"]
     metadata = item.get("metadata", {})
+    # Embed duration into content so it can be used as context
+    duration = metadata.get("duration")
+    if duration:
+        content += f"\nDuration: {duration}"
     documents.append(Document(page_content=content, metadata=metadata))
 
 
